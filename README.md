@@ -34,6 +34,11 @@ This project uses the Microsoft Geolife dataset to perform spatial data analysis
 - Jupyter Notebook
 
 ## Some screenshots 🖼️
-![image](https://github.com/user-attachments/assets/8e08c82a-763c-4558-b0de-38b13029050d)
-![image](https://github.com/user-attachments/assets/a183d2cc-9ffc-4122-9288-17ceda337aa3)
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/8e08c82a-763c-4558-b0de-38b13029050d" alt="Image 1" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a183d2cc-9ffc-4122-9288-17ceda337aa3" alt="Image 2" width="400"/></td>
+  </tr>
+</table>
+
 
