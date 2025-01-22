@@ -33,3 +33,7 @@ This project uses the Microsoft Geolife dataset to perform spatial data analysis
 - Docker and Docker Compose
 - Jupyter Notebook
 
+## Some screenshots 🖼️
+![image](https://github.com/user-attachments/assets/8e08c82a-763c-4558-b0de-38b13029050d)
+![image](https://github.com/user-attachments/assets/a183d2cc-9ffc-4122-9288-17ceda337aa3)
+
