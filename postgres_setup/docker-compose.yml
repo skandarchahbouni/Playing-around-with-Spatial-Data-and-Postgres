@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  postgres:
+    image: mobilitydb/mobilitydb
+    container_name: postgres_container
+    environment:
+        POSTGRES_USER: skandar
+        POSTGRES_PASSWORD: skandar
+        POSTGRES_DB: mobilitydb
+    ports:
+    - "25432:5432"
+    volumes:
+    - mobilitydb_data:/var/lib/postgresql/data
+  pgadmin:
+      image: dpage/pgadmin4
+      container_name: pgadmin_container
+      environment:
+          PGADMIN_DEFAULT_EMAIL: skandarchahbouni@gmail.com
+          PGADMIN_DEFAULT_PASSWORD: skandar
+      ports:
+      - "8080:80"
+      depends_on:
+      - postgres
+volumes:
+  mobilitydb_data:
